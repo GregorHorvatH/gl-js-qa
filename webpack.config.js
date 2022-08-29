@@ -50,6 +50,11 @@ module.exports = env =>
         new FriendlyErrorsWebpackPlugin(),
         new WebpackBar(),
       ],
+      resolve: {
+        alias: {
+          '@src': path.resolve(__dirname, 'src/js/'),
+        },
+      },
     },
     loadModeConfig(env),
   );
