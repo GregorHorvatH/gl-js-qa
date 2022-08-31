@@ -34,9 +34,10 @@
         <strong>placeat nesciunt,</strong> error quidem ex accusamus quos!
       </p>
       <p>
-        <strong>Lorem ipsum dolor sit,</strong> amet consectetur adipisicing
-        elit. Debitis cum omnis, error veritatis culpa excepturi magnam odit vel
-        amet, consectetur recusandae adipisci repellendus eveniet ex saepe.
+        <strong id="strong-text">Lorem ipsum dolor sit,</strong> amet
+        consectetur adipisicing elit. Debitis cum omnis, error veritatis culpa
+        excepturi magnam odit vel amet, consectetur recusandae adipisci
+        repellendus eveniet ex saepe.
         <strong>Unde explicabo architecto molestias.</strong>
       </p>
       <p>
@@ -47,12 +48,12 @@
       </p>
 
       <div class="auth-form">
-        <label class="input-wrapper login">
+        <label data-testid="field-1" class="input-wrapper login">
           <span class="input-label">Login</span>
           <input class="input-field" type="text" placeholder="enter login..." />
         </label>
 
-        <label class="input-wrapper password">
+        <label data-testid="field-2" class="input-wrapper password">
           <span class="input-label">Password</span>
           <input
             class="input-field"
@@ -64,5 +65,7 @@
         <button id="my-button" class="btn success">Push Me</button>
       </div>
     </main>
+
+    <script src="./index.js" type="module"></script>
   </body>
 </html>
