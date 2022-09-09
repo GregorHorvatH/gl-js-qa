@@ -29,7 +29,7 @@
 ## lesson 6
 
 - async/await
-- fetch, crud
+- fetch, crud, axios
 
 ## lesson 7
 
